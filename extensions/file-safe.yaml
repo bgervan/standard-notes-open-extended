@@ -7,5 +7,5 @@ index:
   name: FileSafe
   thumbnail_url: https://s3.amazonaws.com/standard-notes/screenshots/models/FileSafe-banner.png
 meta:
-  github: sn-extensions/filesafe-bar
+  github: standardnotes/filesafe-bar
   main: index.html
