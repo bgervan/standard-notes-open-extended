@@ -105,6 +105,8 @@ def create_session(token):
 def get_latest(repo, session):
     resp = session.get('https://api.github.com/repos/{}/releases/latest'.format(repo))
     data = resp.json()
+    
+    print(data)
 
     return data['tag_name'], data['zipball_url']
 
